@@ -1,7 +1,16 @@
 import React from 'react';
+import ToDoList from './ToDoList';
+import './Main.css';
 
 const Main = () => {
-  return <div>Main Content Here</div>;
+  return (
+    <div className="main">
+      <ToDoList />
+      <ToDoList />
+      <ToDoList />
+      <ToDoList />
+    </div>
+  );
 };
 
 export default Main;
