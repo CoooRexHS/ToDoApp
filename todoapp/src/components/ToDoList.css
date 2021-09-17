@@ -13,3 +13,16 @@
   padding: 30px;
   margin-bottom: 5%;
 }
+
+.todo-listheader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.AddBtn {
+  width: 25px;
+  height: 25px;
+}

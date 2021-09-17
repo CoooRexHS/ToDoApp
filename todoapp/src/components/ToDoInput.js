@@ -4,7 +4,7 @@ import './ToDoInput.css';
 const ToDoInput = () => {
   return (
     <div className="todoinput">
-      <input className="main-input" />
+      <input className="main-input" placeholder="ToDo Name..." />
       <select name="Category">
         <option value="value1">1</option>
         <option value="value2">2</option>
