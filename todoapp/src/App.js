@@ -6,7 +6,7 @@ import ToDoInput from './components/ToDoInput';
 const App = () => {
   return (
     <div>
-      <h1>TO DO APP</h1>
+      <h1>TO DO</h1>
       <ToDoInput />
       <Main />
       <Footer />

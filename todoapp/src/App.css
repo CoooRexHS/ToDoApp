@@ -14,12 +14,6 @@ h1 {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,11 +29,13 @@ h1 {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'Gotham PRO';
+  src: local('GothamPRO'), url(./fonts/GothamPro.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gotham PRO';
+  font-weight: 900;
+  src: local('GothamPRO'), url(./fonts/GothamPro.ttf) format('truetype');
 }

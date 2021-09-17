@@ -4,6 +4,7 @@
   align-items: center;
   padding: 30px 20px 0;
   width: 70%;
+  padding-bottom: 5px;
   border-bottom: 1px solid #cecece;
   font-family: Roboto, sans-serif;
   font-weight: 100;
@@ -14,6 +15,9 @@
 .check-input {
   margin-right: 10px;
   font-size: 30px;
+  border-radius: 50;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
 }
 
 .check-input:focus {
